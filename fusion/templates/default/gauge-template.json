@@ -1,0 +1,13 @@
+{
+    "property": {
+        "max": 100,
+        "size": 150,
+        "type": "full",
+        "value": 0,
+        "label": "",
+        "prefix": "",
+        "suffix": "",
+        "inputValue": true,
+        "animationDuration": 1,
+    }
+}

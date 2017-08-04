@@ -1,0 +1,24 @@
+{
+  "property": {
+    "autoScale": false,
+    "stacked": false,
+    "gradient": false,
+    "showLegend": true,
+    "legendPosition": "right",
+    "chartAlignment": "start",    
+    "colorSchemeName": "forest",
+    "colorScheme": {
+      "domain": []
+    },
+    "showXAxis": true,
+    "showYAxis": true,
+    "showXAxisLabel": true,
+    "showYAxisLabel": true,
+    "xAxisLabel": "",
+    "yAxisLabel": ""
+  },
+  "style": {
+    "barsContainerWidth": "100%",
+    "barsContainerHeight": "200px"
+  }
+}

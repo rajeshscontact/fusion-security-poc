@@ -1,0 +1,17 @@
+{
+    "property": {},
+    "style": {
+        "container": {
+            "class": "",
+            "dynamicClass": ""
+        },
+        "item": {
+            "class": "item",
+            "dynamicClass": ""
+        },
+        "selectedItem": {
+            "class": "itemSelected",
+            "dynamicClass": ""
+        }
+    }
+}

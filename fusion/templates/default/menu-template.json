@@ -1,0 +1,73 @@
+{
+    "property": {
+        "triggerIcon": {
+            "name": "more_vert",
+            "size": "30px"
+        },
+        "menuItems": [{
+                "buttonProperty": {
+                    "label": "Profile",
+                    "iconProperty": {
+                        "name": "fa-user",
+                        "size": "24px"
+                    },
+                    "iconPosition": "left"
+                },
+                "notification": null,
+                "divider": true,
+                "onClick": null
+            },
+            {
+                "buttonProperty": {
+                    "label": "Settings",
+                    "iconProperty": {
+                        "name": "fa-cog",
+                        "size": "24px"
+                    },
+                    "iconPosition": "left"
+                },
+                "notification": null,
+                "divider": true,
+                "onClick": null
+            },
+            {
+                "buttonProperty": {
+                    "label": "Log Out",
+                    "iconProperty": {
+                        "name": "fa-sign-out",
+                        "size": "24px"
+                    },
+                    "iconPosition": "left"
+                },
+                "notification": null,
+                "divider": true,
+                "onClick": null
+            }
+        ]
+    },
+
+    "style": {
+        "container": {
+            "class": "",
+            "themeColor": "primary"
+        },
+        "iconStyling": {
+            "container": {
+                "class": ""
+            },
+            "icon": {
+                "themeColor": "accent"
+            }
+        },
+        "menuItemStyling": {
+            "buttonStyling": {
+                "container": {
+                    "class": ""
+                },
+                "button": {
+                    "themeColor": "primary"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "property": {
+        "main": {
+            "url": "",
+            "removeBySuccess": false,
+            "uniqueFiles": true,
+            "autoUpload": false
+        },
+        "showDropZone": true,
+        "dropZoneLabel": "Drop files here or click to select: ",
+        "showFileActions": true,
+        "showFilesActions": true,
+        "uploadFileButton": { "label": "Upload" },
+        "removeFileButton": { "label": "Remove" },
+        "uploadFilesButton": { "label": "Upload All" },
+        "removeFilesButton": { "label": "Remove All" }
+    }
+}

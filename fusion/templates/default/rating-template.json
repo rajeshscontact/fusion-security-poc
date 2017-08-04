@@ -1,0 +1,26 @@
+{
+    "property": {
+        "label": "Rating label",
+        "icon": "stars",
+        "value": 1,
+        "max": 5,
+        "countFromEnd": false,
+        "iconsVertical": false,
+        "disabled": false
+    },
+    "style": {
+        "container": {
+            "class": "cf-rating-container"
+        },
+        "label": {
+            "class": "cf-rating-label"
+        },
+        "item": {
+            "class": "cf-rating-item-icon",
+            "dynamicClass": "dynamic-items-class"
+        },
+        "iconSize": "30px",
+        "filledColor": "lightseagreen",
+        "emptyColor": "darkseagreen",
+    }
+}

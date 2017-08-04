@@ -1,0 +1,23 @@
+{
+    "property": {
+        "rows": [],
+        "rowHeight": 50,
+        "limit": 3,
+        "filterable": false,
+        "filterProperty": { "placeholder": "Filter", "iconProperty": { "name": "filter_list", "size": "20px" } },
+        "expandable": false,
+        "detailsHeight": 130,
+        "expandingIconProperty": { "name": "fa-expand", "size": "16px" },
+        "collapsingIconProperty": { "name": "fa-compress", "size": "16px" },
+        "selectable": false,
+        "sorted": [],
+        "selected": []
+    },
+    "style": {
+        "inputFilter": {
+            "iconStyling": { "icon": { "themeColor": "primary" } }
+        },
+        "expandingIcon": { "icon": { "themeColor": "primary", "class": "rotated" } },
+        "collapsingIcon": { "icon": { "themeColor": "primary", "class": "rotated" } }
+    }
+}

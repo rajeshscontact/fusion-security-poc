@@ -1,0 +1,29 @@
+{
+    "property": {
+        "type": "text",
+        "placeholder": "Input value",
+        "maxlength": "10",
+        "hint": {
+            "text": "",
+            "align": ""
+        },
+        "iconProperty": {
+            "display": true,
+            "name": "thumb_up",
+            "size": "24px",
+            "value": "icon"
+        },
+        "iconPosition": "right"
+    },
+    "style": {
+        "input": {
+            "themeColor": "primary"
+        },
+        "iconStyling": {
+            "icon": {
+                "class": "",
+                "dynamicClass": ""
+            }
+        }
+    }
+}

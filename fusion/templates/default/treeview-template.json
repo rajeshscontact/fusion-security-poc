@@ -1,0 +1,60 @@
+{
+    "property": {
+        "items": [{
+                "_id": "1",
+                "_name": "Root 1",
+                "_expanded": true,
+                "_children": [{
+                        "_id": "2",
+                        "_expanded": false,
+                        "_name": "Child 1 "
+                    },
+                    {
+                        "_id": "3",
+                        "_expanded": false,
+                        "_name": "Child 2"
+                    }
+                ]
+            },
+            {
+                "_id": "4",
+                "_expanded": false,
+                "_name": "Root 2",
+                "_children": [{
+                        "_id": "5",
+                        "_expanded": false,
+                        "_name": "Child 1"
+                    },
+                    {
+                        "_id": "6",
+                        "_expanded": false,
+                        "_name": "Child 2",
+                        "_children": [{
+                            "_id": "7",
+                            "_expanded": false,
+                            "_name": "Child 3"
+                        }]
+                    }
+                ]
+            }
+        ],
+        "options": {
+            "idField": "_id",
+            "displayField": "_name",
+            "childrenField": "_children",
+            "isExpandedField": "_expanded",
+            "selectable": true,
+            "allowDrag": true,
+            "animateExpand": true
+        }
+    },
+    "style": {
+        "container": {
+            "class": "cf-tree-container"
+        },
+        "item": {
+            "class": "cf-tree-item",
+            "themeColor": "primary"
+        }
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "property": {
+        "display": true,
+        "disable": false,
+        "buttonProperty": {
+            "label": "Apple Products",
+            "iconProperty": {
+                "display": true,
+                "name": "fa-apple",
+                "size": "16px"
+            }
+        },
+        "menuProperty": {
+            "showTrigger": true,
+            "triggerIcon": {
+                "name": "keyboard_arrow_down",
+                "size": "30px"
+            },
+            "menuItems": [{
+                    "buttonProperty": {
+                        "label": "iPhone",
+                        "iconProperty": {
+                            "name": "fa-mobile",
+                            "size": "24px"
+                        },
+                        "iconPosition": "left"
+                    },
+                    "divider": true
+                },
+                {
+                    "buttonProperty": {
+                        "label": "iPad",
+                        "iconProperty": {
+                            "name": "fa-tablet",
+                            "size": "24px"
+                        },
+                        "iconPosition": "left"
+                    },
+                    "divider": true
+                },
+                {
+                    "buttonProperty": {
+                        "label": "Mac",
+                        "iconProperty": {
+                            "name": "fa-laptop",
+                            "size": "24px"
+                        },
+                        "iconPosition": "left"
+                    },
+                    "divider": true
+                }
+            ]
+        }
+    },
+    "style": {
+        "container": {
+            "class": "",
+            "dynamicClass": ""
+        },
+        "buttonStyling": {
+            "container": {
+                "class": "default-container"
+            },
+            "button": {
+                "themeColor": "primary"
+            }
+        },
+        "menuStyling": {
+            "container": {
+                "class": "",
+                "themeColor": "primary"
+            },
+            "iconStyling": {
+                "icon": {
+                    "themeColor": "accent"
+                }
+            },
+            "menuItemStyling": {
+                "buttonStyling": {
+                    "button": {
+                        "themeColor": "primary"
+                    }
+                }
+            }
+        }
+    }
+}

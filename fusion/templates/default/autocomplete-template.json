@@ -1,0 +1,12 @@
+{
+    "property": {
+        "displayField": "",
+        "source": [],
+        "serverUrl": "",
+        "useChips": false,
+        "chipsReadOnly": false,
+        "multiselection": false,
+        "stayOpenedOnClick": false,
+        "highlighting": false
+    }
+}

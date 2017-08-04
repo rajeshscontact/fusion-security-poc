@@ -1,0 +1,26 @@
+{
+    "property": {
+        "display": true,
+        "disable": false,
+        "label": "SUBMIT",
+        "iconProperty": null,
+        "iconPosition": "left"
+    },
+    "style": {
+        "container": {
+            "class": "",
+            "dynamicClass": ""
+        },
+        "button": {
+            "class": "cf-submit-button",
+            "dynamicClass": "",
+            "themeColor": ""
+        },
+        "iconStyling": {
+            "icon": {
+                "class": "",
+                "dynamicClass": ""
+            }
+        }
+    }
+}

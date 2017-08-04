@@ -1,0 +1,11 @@
+{
+    "property": {
+        "showCardNumberAsPrefix": true
+    },
+    "style": {
+        "container": {
+            "class": "",
+            "dynamicClass": ""
+        }
+    }
+}

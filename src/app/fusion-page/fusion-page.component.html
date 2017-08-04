@@ -1,0 +1,66 @@
+<div class="row">
+  <h2>cf-datatable - with hard coded data</h2>
+  <cf-datatable [properties]="myDatatable2">
+
+    <cf-datatable-column name="Name">
+      <ng-template #cellTemplate let-row="cfRow">{{row.name}}</ng-template>
+    </cf-datatable-column>
+
+    <cf-datatable-column name="City">
+      <ng-template #cellTemplate let-row="cfRow">{{row.city}}</ng-template>
+    </cf-datatable-column>
+
+    <ng-template #detailsTemplate let-details="cfRow.details">
+      <ul class="list">
+        <li>
+          <cf-icon name="fa-envelope-o" size="12px"></cf-icon>
+          {{details.email}}
+        </li>
+        <li>
+          <cf-icon name="fa-map-marker" size="12px"></cf-icon>
+          {{details.address}}
+        </li>
+        <li>
+          <cf-icon name="fa-phone" size="12px"></cf-icon>
+          {{details.phoneNumber}}
+        </li>
+      </ul>
+    </ng-template>
+  </cf-datatable>
+</div>
+
+<hr>
+
+<div class="row">
+  <h2>cf-datatable - does not load after getting data back from service</h2>
+  <cf-datatable [properties]="myDatatable">
+
+    <cf-datatable-column name="customerId">
+      <ng-template #cellTemplate let-row="cfRow">{{row.customerId}}</ng-template>
+    </cf-datatable-column>
+
+    <cf-datatable-column name="inboundOpportunity">
+      <ng-template let-row="cfRow">{{row.inboundOpportunity}}</ng-template>
+    </cf-datatable-column>
+  </cf-datatable>
+</div>
+
+<hr>
+
+
+<div class="row">
+  <h2>custom table component built on bootstrap</h2>
+  <app-data-table [headers]='myCustomDataTable.headers' [data]='myCustomDataTable.data'></app-data-table>
+</div>
+
+<hr>
+
+<div class="row">
+  <h2>custom table component built on bootstrap</h2>
+  <div *ngFor='let input of myCustomDataTable.data'>
+    <h3>Customer Id: {{input.customerId}}</h3>
+    <app-data-table [headers]='myCustomDataTable2.headers' [data]='input.accounts'></app-data-table>
+  </div>
+</div>
+
+<hr>

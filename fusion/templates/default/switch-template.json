@@ -1,0 +1,16 @@
+{
+    "property": {
+        "display": true,
+        "disable": false,
+        "value": "switch",
+        "item": "Cf Switch",
+        "checked": true,
+        "itemPosition": "after"
+    },
+    "style": {
+        "container": {
+            "class": "",
+            "dynamicClass": ""
+        }
+    }
+}

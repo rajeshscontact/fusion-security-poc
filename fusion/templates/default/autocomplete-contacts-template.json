@@ -1,0 +1,16 @@
+{
+    "property": {
+        "displayField": "",
+        "source": [],
+        "serverUrl": "",
+        "useChips": true,
+        "chipsReadOnly": false,
+        "multiselection": false,
+        "stayOpenedOnClick": false,
+        "highlighting": false
+    },
+    "style": {
+        "searchContainer": { "class": "cf-contacts-template" },
+        "inputContainer": { "class": "cf-contacts-template" }
+    }
+}

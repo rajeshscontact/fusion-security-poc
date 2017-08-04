@@ -1,0 +1,21 @@
+{
+    "property": {
+        "display": true,
+        "disable": false,
+        "value": "radio",
+        "item": "Radio Button",
+        "checked": false,
+        "itemPosition": "after"
+    },
+    "style": {
+        "container": {
+            "class": "cf-default-container",
+            "dynamicClass": ""
+        },
+        "radio": {
+            "class": "",
+            "dynamicClass": "",
+            "themeColor": "primary"
+        }
+    }
+}

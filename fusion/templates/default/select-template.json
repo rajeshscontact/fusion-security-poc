@@ -1,0 +1,13 @@
+{
+    "property": {
+        "placeholder": "Select: ",
+        "display": true,
+        "disable": false
+    },
+    "style": {
+        "container": {
+            "class": "",
+            "dynamicClass": ""
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "property": {
+        "showStepNumberAsIcon": "TextTrackCueList",
+        "showStepNumberAsPrefix": false,
+        "previousButton": {
+            "label": "Back"
+        },
+        "nextButton": {
+            "label": "Next"
+        },
+        "finishButton": {
+            "label": "Finish"
+        }
+
+    },
+    "style": {
+        "container": {
+            "class": "",
+            "dynamicClass": ""
+        },
+        "previousButton": {
+            "container": {
+                "class": "",
+                "dynamicClass": ""
+            },
+            "button": {
+                "class": "",
+                "dynamicClass": "",
+                "themeColor": ""
+            }
+        },
+        "nextButton": {
+            "container": {
+                "class": "",
+                "dynamicClass": ""
+            },
+            "button": {
+                "class": "",
+                "dynamicClass": "",
+                "themeColor": ""
+            }
+        },
+        "finishButton": {
+            "container": {
+                "class": "",
+                "dynamicClass": ""
+            },
+            "button": {
+                "class": "",
+                "dynamicClass": "",
+                "themeColor": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "property": {
+        "display": true,
+        "name": "fa-times-circle",
+        "size": "18px",
+        "value": "close"
+    },
+    "style": {
+        "icon": {
+            "class": "cf-close-icon"
+        }
+    }
+}

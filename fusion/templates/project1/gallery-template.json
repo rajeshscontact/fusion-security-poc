@@ -1,0 +1,18 @@
+{
+    "property": {
+        "options": {
+            "width": "100%",
+            "imagePercent": 60,
+            "imageArrowsAutoHide": true,
+            "thumbnailsPercent": 40,
+            "thumbnailsRows": 2,
+            "thumbnailMargin": 1,
+            "thumbnailsMargin": 1,
+            "thumbnailsArrowsAutoHide": true,
+            "previewFullscreen": true
+        }
+    },
+    "style": {
+        "container": { "class": "cf-black-background-border" }
+    }
+}

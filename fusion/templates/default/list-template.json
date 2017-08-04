@@ -1,0 +1,15 @@
+{
+    "property": {
+        "title": "My List"
+    },
+    "style": {
+        "container": {
+            "class": "",
+            "dynamicClass": ""
+        },
+        "title": {
+            "class": "",
+            "dynamicClass": ""
+        }
+    }
+}

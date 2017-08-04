@@ -1,0 +1,17 @@
+{
+    "property": {
+        "display": true,
+        "name": "cloud",
+        "size": "24px",
+        "value": "icon"
+    },
+    "style": {
+        "container": {
+            "class": ""
+        },
+        "icon": {
+            "class": "cf-default-icon",
+            "themeColor": "primary"
+        }
+    }
+}

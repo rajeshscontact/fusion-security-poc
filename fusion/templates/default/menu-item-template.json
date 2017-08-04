@@ -1,0 +1,27 @@
+{
+    "property": {
+        "buttonProperty": {
+            "label": "Menu Item",
+            "iconProperty": {
+                "name": "fa-apple",
+                "size": "24px"
+            },
+            "iconPosition": "right"
+        },
+        "notification": null,
+        "divider": true,
+        "onClick": null
+    },
+    "style": {
+        "container": {
+            "class": "",
+            "dynamicClass": "",
+            "themeColor": "primary"
+        },
+        "icon": {
+            "class": "cf-default-icon",
+
+            "themeColor": "primary"
+        }
+    }
+}

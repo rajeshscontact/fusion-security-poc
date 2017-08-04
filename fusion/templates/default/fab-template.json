@@ -1,0 +1,23 @@
+{
+    "property": {
+        "direction": "right", // can be: up, down, right, left    
+        "actionButtons": [{
+            "icon": {
+                "name": "home"
+            },
+            "display": true
+        }],
+        "triggerButton": {
+            "icon": {
+                "name": "menu"
+            }
+        },
+        "labelPosition": "above" // can be: above, below, right, left
+    },
+    "style": {
+        "container": {
+            "class": "",
+            "dynamicClass": ""
+        }
+    }
+}

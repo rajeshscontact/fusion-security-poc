@@ -1,0 +1,24 @@
+{
+    "property": {
+        "info": {
+            "show": true
+        },
+        "content": {
+            "title": "My Toolbar"
+        },
+        "close": {
+            "show": true
+        },
+        "display": true,
+        "disable": false
+    },
+    "style": {
+        "container": {
+            "class": "",
+            "dynamicClass": ""
+        },
+        "toolbar": {
+            "class": "mat-primary"
+        }
+    }
+}
